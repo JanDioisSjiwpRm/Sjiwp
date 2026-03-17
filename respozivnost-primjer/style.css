@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 30px;
+    background-color: cornsilk;
+}
+.okvir{
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+.velika-kartica{
+    display: flex;
+    gap: 20px;
+}
+.kartica{
+    flex: 1;
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+@media (max-width: 760px){
+    .velika-kartica{
+        flex-direction: column;
+    }
+    body{
+        background-color: darkorchid;
+    }
+}
